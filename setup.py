@@ -7,7 +7,7 @@ with io.open('README.rst', encoding='utf-8') as readme:
     long_description = readme.read()
 
 name = 'allanc_sphinx'
-description = 'Sphinx themes used for documentation for my projects.'
+description = 'Sphinx themes used for documentation of my projects.'
 
 params = dict(
     name=name,
