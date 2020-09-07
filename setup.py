@@ -13,7 +13,7 @@ params = dict(
     name=name,
     use_scm_version=True,
     author="Allan Crooks",
-    author_email="allan@increment.one",
+    author_email="allan@sixtyten.org",
     description=description or name,
     long_description=long_description,
     license='MIT',
@@ -31,7 +31,7 @@ params = dict(
         "Framework :: Sphinx :: Theme",
     ],
     entry_points={
-        'sphinx_themes': [
+        'sphinx.html_themes': [
             'path = allanc_sphinx:theme_path',
         ],
     },
