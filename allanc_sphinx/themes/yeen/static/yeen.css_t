@@ -7,6 +7,11 @@
 
 @import url("basic.css");
 
+/* Stop weird rendering that I see on some pages. */
+div.section::after {
+    display: inline-block;
+}
+
 /* -- page layout ----------------------------------------------------------- */
 
 body {
