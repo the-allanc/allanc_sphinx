@@ -23,16 +23,13 @@ params = dict(
     setup_requires=[
         'setuptools_scm>=1.15.0'
     ],
-    extras_require={
-       'yeen': ['sphinxjp.themes.trstyle',]
-    },
     classifiers=[
         "License :: OSI Approved :: MIT License",
         "Framework :: Sphinx :: Theme",
     ],
     entry_points={
         'sphinx.html_themes': [
-            'path = allanc_sphinx:theme_path',
+            'yeen = allanc_sphinx',
         ],
     },
 )
