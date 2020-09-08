@@ -2,8 +2,13 @@
     yeen/layout.html
     ~~~~~~~~~~~~~~~~~~~~~
     Sphinx layout template for the yeen theme.
+    Some content copied from sphinxjp.themes.trstyle.
 #}
-{% extends "trstyle/layout.html" %}
+{% extends "basic/layout.html" %}
+
+{# put the sidebar before the body #}
+{% block sidebar1 %}{{ sidebar() }}{% endblock %}
+{% block sidebar2 %}{% endblock %}
 
 {% block footer %}
     {{ super() }}
