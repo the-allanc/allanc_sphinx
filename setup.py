@@ -32,7 +32,7 @@ params = dict(
     ],
     entry_points={
         'sphinx.html_themes': [
-            'path = allanc_sphinx:theme_path',
+            'yeen = allanc_sphinx',
         ],
     },
 )
